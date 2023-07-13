@@ -40,7 +40,7 @@ AES (ECB mode) encryption is used to mask PII. The key for decryption can be cus
 
 ## Possible Improvements
 Currently this repo is a sample application. If we want to make it a formal production, we can think about:
-* A configuration management, instead of taking everything in one file. 
+* A configuration file, instead of taking config values in one file. 
 * Error handling. This will let debugging process easier.
 * Logging system will allow people to track what happened to this application.
 
