@@ -13,15 +13,19 @@ Build up docker compose container in the same folder of the application with com
 
 #### Note:
 If you already have a Python package `Crypto`, try:
+
 ```
 pip uninstall crypto
 pip uninstall pycryptodome
 ```
+
 and then 
+
 ```
 pip install pycryptodome
 ```
-The `Crypto` package does not work.
+
+The `Crypto` package was no longer maintained since 2013.
 
 ## How to use
 Pull this repository, and try this command in command line:
@@ -31,7 +35,7 @@ Pull this repository, and try this command in command line:
 ## Credentials and Encryption
 This task will not require any AWS accounts and we only use dummy credentials. 
 
-AES(ECB mode) encryption is used to mask PII. The key for decryption can be customized. If you need to recover the masked PII, please remember your key which would be used in the `decrypt` function.
+AES (ECB mode) encryption is used to mask PII. The key for decryption can be customized. If you need to recover the masked PII, please remember your key which would be used in the `decrypt` function.
 
 
 ## Possible Improvements
